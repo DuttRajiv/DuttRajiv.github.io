@@ -31,8 +31,8 @@ body{
     color: #fff;
 }
 header{
-    background-image: url(images/Book.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(images/Book.jpg);
+    background-image: url(images/Book.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(images/Book.png);
     background-size: cover; 
     background-position: top;
     height: 100vh;
@@ -81,7 +81,7 @@ header.other {
     position: absolute;
     width : auto;
     top: 25%;
-    left: 5vw;
+    left:35vw;
     display : flex;
     width: 300px;
     color:  White;
@@ -93,17 +93,24 @@ text-align: center;
 .education-bank p{
     position: absolute;
     width : auto;
-    top: 85%;
-    left: 27vw;
+    top: 15%;
+    left: 77vw;
     display : flex;
+    border-radius: 50%;
+    padding:40px;
+    border: 2px solid blue;
     width: 200px;
     color: #ffffff;
+    font-size: 20px;
 }
 .quotes p{
     position: absolute;
     width : auto;
-    top: 85%;
-    left: 55vw;
+    top: 55%;
+    border-radius: 50%;
+    padding:40px;
+    border: 2px solid blue;
+    left: 77vw;
     display : flex;
     width: 250px;
     color:#ffffff;

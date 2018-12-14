@@ -140,10 +140,11 @@ font-size: 25px;
 }
 header {
     background-image:  url(images/TajMahal.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/TajMahal.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.37)), url(images/TajMahal.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+    z-index: 9999;
     background-attachment: fixed;
 }
 
@@ -151,7 +152,7 @@ header.other {
     background-image: none;
     
     height: auto;
-    background-color: rgba(7, 5, 5, 0.671);
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 .india-text-box {
@@ -361,7 +362,7 @@ footer p {
 }
 
 @media (max-width: 480px){
-    body{ font-size: 16px;}
+    body{ font-size: 18px;}
     section { padding : 0 3%;}
     .col{ width:100%;
     margin : 0 0 3% 0;}

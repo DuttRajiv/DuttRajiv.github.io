@@ -74,9 +74,9 @@ header.other {
     border-bottom: 2px solid #e67e22;
 }
 
-h2{ color:  blue;
+h2{ color: snow;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     }
 .education-bank h2{
     position: absolute;
@@ -116,7 +116,7 @@ p{
 }
 
 .picbox {
-    margin-top: 110px;
+    margin-top: 80px;
     margin-left: 100px;
     list-style: none;
     display: flex;
@@ -137,6 +137,18 @@ display: inline;
     margin-bottom: 30px;
 }
 
+footer .row::after,
+footer .row::before {
+    display: none;
+}
+
+footer .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -291,6 +303,7 @@ display: inline;
         margin-top: 25px;
         margin-left: 5px;
         float: left;
+        color: snow;
        
 }}
   
@@ -354,9 +367,9 @@ display: inline;
     width: 220px;
     border: 2px solid blue;
     padding:5px;
-   
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 15px;
+    align-content: center;
 }
 }

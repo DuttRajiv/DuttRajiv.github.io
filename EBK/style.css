@@ -32,7 +32,7 @@ body{
 }
 header{
     background-image: url(images/kid.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(images/kid.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.311)), url(images/kid.jpg);
     background-size:contain; 
     background-position: top;
     height: 100vh;
@@ -47,7 +47,7 @@ header.other {
     width:100%;
     list-style: none;
     font-size: 25px;
-    background-color: rgba(6, 58, 58, 0.247);
+    background-color: rgba(6, 58, 58, 0.147);
 }
 .menu{
     float: right;
@@ -72,6 +72,9 @@ header.other {
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 3px solid #b9db22;
+}
+.main-nav image{
+    size: 5px;
 }
 
 h2{ color: rgb(255, 255, 255);

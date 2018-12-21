@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-color: #fff;
+    background-image: url('./images/ricepaper_@2X.png');
+    background-repeat: repeat;
+    color: #555;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-img{
+    float : left;
+    height: 60px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 0px;
+    
+}
+.logo{
+    height: 10px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+header{
+    background-image: url(images/SCHOOL1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(images/SCHOOL1.jpg);
+    background-size:contain; 
+    background-position: top;
+    height: 100vh;
+    
+}
+header.other {
+    background-image: none;
+    height: auto;
+    background-color: rgba(24, 11, 11, 0.342);
+}
+.main-nav{
+    width:100%;
+    list-style: none;
+    font-size: 25px;
+    background-color: rgba(8, 68, 68, 0.247);
+}
+.menu{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.main-nav li{
+
+    display: inline-block;
+    margin-left: 70px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 10px 0;
+    color: #fff;
+    text-decoration:none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition:  border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
+
+h2{ color: snow;
+    text-align: center;
+    margin-top: 20px;
+    }
+.education-bank h2{
+    position: absolute;
+    top: 150px;
+    margin-left: 500px;
+    display : flex;
+    width: 400px;
+    color: white;
+    font-size: 28px;
+}
+.education-bank p{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    display : flex;
+    width: 250px;
+    height: 100px;
+    color: snow;
+    font-size: 22px;
+}
+.quotes p{
+    position: absolute;
+    top: 50%;
+   margin-left: 1250px;
+   font-size: 22px;
+}
+.section-news h2{
+    color: whitesmoke;
+}
+.news img:hover {
+    transform: scale(1.10);
+    opacity: 1;
+}
+
+p{
+    color: yellowgreen;
+}
+
+.picbox {
+    margin-top: 80px;
+    margin-left: 100px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.picbox li{
+display: inline;
+
+}
+.Gallery{
+    height: 300px;
+    width: 400px;
+    border: 3px solid blue;
+    padding:10px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+footer .row::after,
+footer .row::before {
+    display: none;
+}
+
+table {
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 20%;
+    border:none;
+
+    border-collapse: collapse;
+    width: 65%;
+}
+
+th, td {
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:nth-child(odd){
+    background-color: #B6D6CC;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.contact h2{
+    padding :20px;
+    margin-bottom: 40px;
+    left: 30px;
+}
+
+footer .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width: 900px){
+    body{ font-size: 16px;}
+    section { padding : 0 4%;}
+ 
+.main-nav{
+    width:100%;
+    list-style: none;
+    font-size: 20px;
+    background-color: rgba(8, 68, 68, 0.247);
+}
+.menu{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.logo{
+    height: 5px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-nav li{
+
+    display: inline-block;
+    margin-left: 20px;
+}
+  
+.education-bank h2{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 165px;
+    width: 300px;
+    color: white;
+    
+}
+
+.education-bank p{
+    margin-left: 75px;
+    font-size: 16px;
+    width: 120px;
+}
+.quotes p{
+    margin-left: 500px;
+    font-size: 16px;
+    width: 180px;
+
+}
+
+.picbox {
+    margin-top: 25px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+}
+
+.Gallery{
+    height: 300px;
+    width: 300px;
+    border: 3px solid blue;
+    padding:5px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+   
+   h2{
+        font-size: 100%;
+        margin-top:20px;
+        margin-left: 5px;
+        float: left;
+}}
+
+
+@media (max-width: 767px){
+    body{ font-size: 16px;}
+    section { padding : 0 4%;}
+ 
+.main-nav{
+    width:100%;
+    list-style: none;
+    font-size: 20px;
+    background-color: rgba(8, 68, 68, 0.247);
+}
+.menu{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.logo{
+    height: 5px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-nav li{
+
+    display: inline-block;
+    margin-left: 150px;
+}
+  
+.education-bank h2{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 65px;
+    width: 400px;
+    color: white;
+    
+}
+
+.education-bank p{
+    margin-left: 55px;
+    font-size: 16px;
+    width: 120px;
+}
+.quotes p{
+    margin-left: 400px;
+    font-size: 16px;
+    width: 180px;
+
+}
+
+.Gallery{
+    height: 250px;
+    width: 250px;
+    border: 3px solid blue;
+    padding:5px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+   
+   h2{
+        font-size: 100%;
+        margin-top: 25px;
+        margin-left: 5px;
+        float: left;
+        color: snow;
+       
+}}
+  
+
+
+@media (max-width: 480px){
+    body{ font-size: 12px;}
+    section { padding : 0 2%;}
+ 
+.main-nav{
+    width:100%;
+    list-style: none;
+    font-size: 16px;
+    background-color: rgba(8, 68, 68, 0.247);
+}
+.menu{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.main-nav li{
+
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.logo{
+    height: 5px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+   
+  .education-bank h2{
+        font-size: 14px;
+        margin-top: 50px;
+        margin-left: 25px;
+        width: 300px;
+        color:white;
+        
+}
+.education-bank p{
+    margin-left: 100px;
+    font-size: 14px;
+    width: 120px;
+}
+.quotes p{
+    margin-left: 100x;
+    margin-top: 180px;
+    font-size: 14px;
+    width: 120px;
+
+}
+
+.Gallery{
+    height: 220px;
+    width: 220px;
+    border: 2px solid blue;
+    padding:5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    align-content: center;
+}
+}
